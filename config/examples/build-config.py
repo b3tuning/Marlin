@@ -25,7 +25,7 @@ PRINTER_CHOICES = [
     "Hibiscus_Mini2",
     "Guava_TAZ4",
     "Juniper_TAZ5",
-    "Oliveoil_TAZ6",
+    "Oliveoil_TAZ6_BLTouch",
     "Quiver_TAZPro",
     "Redgum_TAZWorkhorse",
 
