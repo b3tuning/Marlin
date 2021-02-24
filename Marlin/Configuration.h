@@ -1006,7 +1006,7 @@
 #define XY_PROBE_SPEED 18000 // <-- changed
 
 // Feedrate (mm/min) for the first approach when double-probing (MULTIPLE_PROBING == 2)
-#define Z_PROBE_SPEED_FAST 500 // <-- changed
+#define Z_PROBE_SPEED_FAST 600 // <-- changed
 
 // Feedrate (mm/min) for the "accurate" probe of each point
 #define Z_PROBE_SPEED_SLOW 200 // <-- changed
@@ -1413,7 +1413,7 @@
 
   //#define MESH_EDIT_GFX_OVERLAY   // Display a graphics overlay while editing the mesh
 
-  #define MESH_INSET 0 // <-- changed:  Set Mesh bounds as an inset region of the bed
+  #define MESH_INSET 5 // <-- changed:  Set Mesh bounds as an inset region of the bed
   #define GRID_MAX_POINTS_X 9 // <-- changed:  Don't use more than 15 points per axis, implementation limited.
   #define GRID_MAX_POINTS_Y 9 // <-- changed
 
