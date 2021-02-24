@@ -1727,7 +1727,7 @@
  *
  * See https://marlinfw.org/docs/features/lin_advance.html for full instructions.
  */
-// #define LIN_ADVANCE // <-- changed
+#define LIN_ADVANCE // <-- changed
 #if ENABLED(LIN_ADVANCE)
   //#define EXTRA_LIN_ADVANCE_K // Enable for second linear advance constants
   #define LIN_ADVANCE_K 0.11    // Unit: mm compression per 1mm/s extruder speed

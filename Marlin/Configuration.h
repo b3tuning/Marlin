@@ -496,9 +496,9 @@
     #define DEFAULT_Ki_LIST {   1.08,   1.08 }
     #define DEFAULT_Kd_LIST { 114.00, 114.00 }
   #else
-    #define DEFAULT_Kp  37.76 // <-- changed
-    #define DEFAULT_Ki   3.49 // <-- changed
-    #define DEFAULT_Kd 102.08 // <-- changed
+    #define DEFAULT_Kp  21.83 // <-- changed
+    #define DEFAULT_Ki   2.56 // <-- changed
+    #define DEFAULT_Kd  46.49 // <-- changed
   #endif
 #endif // PIDTEMP
 
@@ -537,9 +537,9 @@
 
   // 120V 250W silicone heater into 4mm borosilicate (MendelMax 1.5+)
   // from FOPDT model - kp=.39 Tp=405 Tdead=66, Tc set to 79.2, aggressive factor of .15 (vs .1, 1, 10)
-  #define DEFAULT_bedKp 162 // <-- changed
-  #define DEFAULT_bedKi 17 // <-- changed
-  #define DEFAULT_bedKd 378 // <-- changed
+  #define DEFAULT_bedKp 149.61 // <-- changed
+  #define DEFAULT_bedKi 26.47 // <-- changed
+  #define DEFAULT_bedKd 563.78 // <-- changed
 
   // FIND YOUR OWN: "M303 E-1 C8 S90" to run autotune on the bed at 90 degreesC for 8 cycles.
 #endif // PIDTEMPBED
@@ -824,7 +824,7 @@
  *
  * See https://github.com/synthetos/TinyG/wiki/Jerk-Controlled-Motion-Explained
  */
-#define S_CURVE_ACCELERATION
+// #define S_CURVE_ACCELERATION
 
 //===========================================================================
 //============================= Z Probe Options =============================
